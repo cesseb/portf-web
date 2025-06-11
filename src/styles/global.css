@@ -2,10 +2,11 @@
 @import "flowbite/src/themes/default";
 @plugin "flowbite/plugin";
 @source "../../node_modules/flowbite";
+@custom-variant dark (&:where(.dark, .dark *));
 
 
-body {
+/* body {
   background-color: #111827;
-}
+} */
 
 
